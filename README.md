@@ -22,5 +22,5 @@ This project leverages OpenAI's GPT-4o-mini model to generate detailed, concise,
 
 ```python
 company_name = "Tesla, Inc."
-summary = generate_detailed_summary_with_role(company_name)
+summary = generate_summary(company_name)
 print(summary)
